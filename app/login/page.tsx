@@ -31,7 +31,7 @@ export default function LoginPage() {
                 localStorage.setItem("username", data.data.username);
                 
                 alert("Login realizado com sucesso!");
-                window.location.href = "/adminPage/hero"; // Redireciona
+                window.location.href = "/adminPage/produtos"; // Redireciona
             } else {
                 alert("E-mail ou senha inválidos.");
             }
