@@ -12,7 +12,7 @@ export default function AdminPage() {
     }, []);
 
     const navLinks = [
-        { label: 'HERO', href: '/adminPage/hero' },
+        //{ label: 'HERO', href: '/adminPage/hero' },
         { label: 'PRODUTOS', href: '/adminPage/produtos' },
         { label: 'PERGUNTAS', href: '/adminPage/perguntas' },
         { label: 'CONTATO', href: '/adminPage/contato' },
