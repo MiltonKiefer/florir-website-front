@@ -39,7 +39,7 @@ export default function ContatoAdminPage() {
   const [resourcePath, setResourcePath] = useState<string>(CONTACT_PATH_CANDIDATES[0]);
 
   const navLinks = [
-    { label: 'HERO', href: '/adminPage/hero' },
+    //{ label: 'HERO', href: '/adminPage/hero' },
     { label: 'PRODUTOS', href: '/adminPage/produtos' },
     { label: 'PERGUNTAS', href: '/adminPage/perguntas' },
     { label: 'CONTATO', href: '/adminPage/contato' },
